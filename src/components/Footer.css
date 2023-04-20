@@ -1,0 +1,20 @@
+footer {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.icons {
+  display: flex;
+  gap: 4%;
+}
+
+.icon {
+  color: #8fb34d;
+}
+
+.copyright p {
+  color: #8fb34d;
+}

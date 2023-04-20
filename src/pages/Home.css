@@ -1,0 +1,8 @@
+.homecards-container {
+  display: flex;
+  gap: 2%;
+  margin: 2% auto;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+}
