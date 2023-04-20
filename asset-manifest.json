@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/halazoo/static/css/main.b6b26f1a.css",
+    "main.js": "/halazoo/static/js/main.4926f4a5.js",
+    "static/media/store.jpg": "/halazoo/static/media/store.304292e1f471b49fd89d.jpg",
+    "static/media/smartdog.jpg": "/halazoo/static/media/smartdog.5f18196f47ffd38370ed.jpg",
+    "static/media/aquarium.jpg": "/halazoo/static/media/aquarium.93f11b842a0e7d5c3ccf.jpg",
+    "static/media/halazoofejlec.png": "/halazoo/static/media/halazoofejlec.a64f651af9cf76bdf9f5.png",
+    "index.html": "/halazoo/index.html",
+    "main.b6b26f1a.css.map": "/halazoo/static/css/main.b6b26f1a.css.map",
+    "main.4926f4a5.js.map": "/halazoo/static/js/main.4926f4a5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b6b26f1a.css",
+    "static/js/main.4926f4a5.js"
+  ]
+}
