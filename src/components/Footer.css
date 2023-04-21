@@ -1,20 +1,47 @@
 footer {
-  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  position: fixed;
+  bottom: 2%;
+  left: 0;
+  margin: 12% auto 0;
+  width: 100%;
 }
 
 .icons {
   display: flex;
-  gap: 4%;
 }
 
-.icon {
-  color: #8fb34d;
-}
-
+.icon,
 .copyright p {
   color: #8fb34d;
+}
+
+@media (max-width: 768px) {
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #8fb34d;
+    margin: 4% auto 0;
+    width: 100%;
+    height: 10%;
+  }
+
+  .copyright p {
+    display: none;
+  }
+  .icons {
+    margin: auto 4%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .icon {
+    color: #00529c;
+    margin: 0 auto;
+    padding: 2%;
+  }
 }

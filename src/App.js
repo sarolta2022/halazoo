@@ -9,6 +9,7 @@ import Products from "./pages/Products";
 import Services from "./pages/Services";
 
 import Navbar from "./components/Navbar";
+import Navbar2 from "./components/Navbar2";
 import Footer from "./components/Footer";
 
 const App = () => {

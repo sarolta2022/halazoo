@@ -1,3 +1,7 @@
+.home {
+  display: flex;
+}
+
 .homecards-container {
   display: flex;
   gap: 2%;
@@ -5,4 +9,11 @@
   width: 80%;
   justify-content: center;
   align-items: center;
+}
+
+@media (max-width: 768px) {
+  .homecards-container {
+    flex-direction: column;
+    margin-bottom: 20%;
+  }
 }

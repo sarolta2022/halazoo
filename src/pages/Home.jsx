@@ -15,14 +15,16 @@ const homecards = [
 
 const Home = () => {
   return (
-    <div className="homecards-container">
-      {homecards.map((homecard) => (
-        <HomeCard
-          key={homecard.key}
-          image={homecard.image}
-          title={homecard.title}
-        />
-      ))}
+    <div className="home">
+      <div className="homecards-container">
+        {homecards.map((homecard) => (
+          <HomeCard
+            key={homecard.key}
+            image={homecard.image}
+            title={homecard.title}
+          />
+        ))}
+      </div>
     </div>
   );
 };
